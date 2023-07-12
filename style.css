@@ -1,0 +1,49 @@
+body {
+    background-color: #fefde9;
+}
+.navbar, .container {
+    background-color: #2d464b;
+}
+.navbar-brand {
+    color: #ffd766;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+.nav-link, .lead  {
+    color: #b8c0b4;
+}
+.dropdown {
+    color: #ffd766;
+}
+.dropdown-menu {
+    background-color: #b8c0b4;
+}
+.dropdown-item {
+    color: #2d464b;
+}
+h1, h2 {
+    color: #fefde9;
+}
+.btn {
+    background-color: #ffd766;
+}
+.card-title {
+    color: #2d464b;
+}
+.card-header {
+    background-color: #fefde9;
+}
+.card-body {
+    background-color: #b8c0b4;
+}
+.modal-content {
+    background-color: #fefde9;
+}
+.broo {
+    text-decoration: none;
+    color: #b8c0b4;
+}
+.broo:hover {
+    color: #ffd766;
+}
+

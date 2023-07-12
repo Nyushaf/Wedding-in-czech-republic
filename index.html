@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl" id="home" aria-label="Sixth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">СВАДЬБА В ЧЕХИИ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse p-2" id="navbarsExample06">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">О нас</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Наши свадьбы</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                            <li><a class="dropdown-item" href="#klement">Свадьба в Староместской Ратуше</a></li>
+                            <li><a class="dropdown-item" href="#klement">Свадьба в Клементинуме</a></li>
+                            <li><a class="dropdown-item" href="#castle">Свадьба в Дворцовых садах</a></li>
+                            <li><a class="dropdown-item" href="#castle">Свадьба в замке Пругонице</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prices">Тарифы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#booking">Забронировать</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1564511287568-54483b52a35e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>В этот город невозможно не влюбиться!</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.glitch.global/413330c5-163f-424c-8b4f-a43251d52cce/picture.jpg?v=1657309918514" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Подари себе свадьбу мечты!</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.glitch.global/413330c5-163f-424c-8b4f-a43251d52cce/picture2.jpg?v=1657309922221" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Незабываемые воспоминания на всю жизнь!</h1>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <section id="booking">
+        <div class="container col-xxl-10 px-4 py-5" data-aos="zoom-in-up">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1555577038-ff69a901ca45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHByYWd1ZSUyMHN0YXR1ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="300" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Почему выбирают нас</h1>
+                    <p class="lead">Свадьба в Праге – это ваша личная история, рассказанная на вечном и понятном каждому языке любви и романтики. Достаточно однажды побывать в этом невероятном городе, чтобы навсегда стать жертвой ее обаяния. Красота пражской архитектуры и атмосфера, царящая в этом необычном городе, - вот почему в Прагу хочется раз и навсегда влюбиться, снова и снова возвращаясь. Прага – это романтика, запечатленная в каменных мостовых, узких улочках Старого города, уютных площадях с небольшими, открытыми кафе. Именно поэтому Прага так любима среди пар, решившихся на свадьбу заграницей. Исключительное достоинство свадьбы в Праге состоит в том, что свадьба здесь может быть абсолютно любой. Все зависит только от пожеланий и предпочтений каждой конкретной пары. А мы поможем в осуществлении вашей мечты.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="mailto:info@luxesvadba.ru">
+                            <button type="button" class="btn btn-lg px-4 me-md-2">Забронировать свадьбу</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="container marketing" data-aos="zoom-in-up">
+        <div class="row mt-1">
+            <div class="col-lg-6 mt-5" id="klement">
+                <img src="https://tripplanet.ru/wp-content/uploads/europe/czech/prague/old-town-hall.jpg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="220" height="220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+                <h2 class="text-center fw-normal">Староместская ратуша</h2>
+                <p class="text-center lead">Староместская Ратуша расположена на главной площади чешской столицы, которая носит одноименное название. Это самое сердце знаменитого пражского Старого города.Свадьба в Староместской Ратуше – это универсальный вариант свадьбы в Праге. Он подойдет паре, которая хочет сделать свой праздник оригинальным и незабываемым.</p>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="https://res.cloudinary.com/fleetnation/image/private/c_fill,g_center,h_640,w_640/v1475742046/xrxlanw1kklrtxg4ed4k.jpg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="220" height="220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+                <h2 class="text-center fw-normal">Клементинум</h2>
+                <p class="text-center lead">Для пар, которые хотят свою свадьбу провести в максимально аутентичном и исключительно пражском по духу и настроению пространстве, таинственном и прекрасном как сама Прага, лучшей свадебной локации, нежели Клементинум, просто не найти. Здесь словно на ладони многовековая история, культурное наследие, необыкновенная красота и, конечно же, любовь.</p>
+            </div>
+            <div class="col-lg-6 mt-5 mb-4" id="castle">
+                <img src="https://avatars.mds.yandex.net/i?id=67daffba16c58bc282ce6a71305d896f-4552949-images-thumbs&n=13&exp=1" class="bd-placeholder-img rounded-circle mx-auto d-block" width="220" height="220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+                <h2 class="text-center fw-normal">Дворцовые сады</h2>
+                <p class="text-center lead">Дворцовые сады вписаны в разно уровневые террасы, которые и образуют необычный и потрясающе красивый городской ландшафт. Свадьба в Дворцовых садах подойдет тем, кто ценит очарование свадебных церемоний под открытым небом.</p>
+            </div>
+            <div class="col-lg-6 mt-5 mb-4">
+                <img src="https://avatars.mds.yandex.net/i?id=7ad012ed9cfe7794c2da9d83c8e7ed9b_l-5280252-images-thumbs&n=13" class="bd-placeholder-img rounded-circle mx-auto d-block" width="220" height="220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+                <h2 class="text-center fw-normal">Замок Пругонице</h2>
+                <p class="text-center lead">Одна из самых красивых и необычных площадок Праги, для свадьбы под открытым небом – терраса Пругоницкого замка. Это необыкновенное место не просто городской парк. Оно сочетает в себе живописный пейзаж, очарование европейской старины и легкую атмосферу повседневной радости бытия.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <section id="prices">
+        <div class="container py-3">
+            <header>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4 fw-normal">Наши тарифы</h1>
+                    <p class="lead fs-5">Доступность любой даты можно проверить используя сервис <a class="broo" href="#booking">«ЗАБРОНИРОВАТЬ СВАДЬБУ»</a></p>
+                </div>
+            </header>
+            <main>
+                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Basic</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$750</h1>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>Церемония бракосочетания</li>
+                                        <li>Перевод свадебной церемонии</li>
+                                        <li>Шампанское во время церемонии</li>
+                                        <li>Пересылка свидетельства о браке почтой</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Узнать больше >></button>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Тариф Basic</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <ul type="square">
+                                                        <li>Подготовка документов для бракосочетания и перевод их на чешский язык.</li>
+                                                        <li>Оплата государственных пошлин</li>
+                                                        <li>Сопровождение в полицию и Загс для предварительного оформления документов</li>
+                                                        <li>Подготовка программы и тайминга свадебного дня</li>
+                                                        <li>Пересылка свидетельства о браке обычной почтой</li>
+                                                        <li>Консультации по выбору фотографов, видеографов, стилистов и визажистов</li>
+                                                        <li>Консультации с флористом и предварительный заказ свадебного букета</li>
+                                                        <li>Консультации по выбору ресторана для свадебного банкета/ужина и бронирование ресторана/столика</li>
+                                                        <li>Консультации с кондитером, заказ свадебного торта</li>
+                                                        <li>Церемония бракосочетания</li>
+                                                        <li>Сопровождение свадебной церемонии сотрудником компании</li>
+                                                        <li>Перевод свадебной церемонии присяжным переводчиком</li>
+                                                        <li>Музыкальное сопровождение - живая, органная музыка</li>
+                                                        <li>Шампанское во время церемонии - 6 бокалов</li>
+                                                        <li>Трансфер к месту проведения церемонии на базовом автомобиле</li>
+                                                        <li>SIM-карта чешского оператора сотовой связи, активный баланс - 200 крон</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">De Luxe</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$1300</h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Свадебная прическа для невесты</li>
+                                    <li>Свадебный макияж для невесты</li>
+                                    <li>Фотосъемка свадебной церемонии</li>
+                                    <li>Пересылка свидетельства о браке почтой DHL</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal2">Узнать больше >></button>
+                                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel2">Тариф De Luxe</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul type="square">
+                                                    <li>Подготовка документов для бракосочетания и перевод их на чешский язык.</li>
+                                                    <li>Оплата государственных пошлин</li>
+                                                    <li>Сопровождение в полицию и Загс для предварительного оформления документов</li>
+                                                    <li>Подготовка программы и тайминга свадебного дня</li>
+                                                    <li>Пересылка свидетельства о браке экспресс почтой DHL</li>
+                                                    <li>Консультации по выбору фотографов, видеографов, стилистов и визажистов</li>
+                                                    <li>Консультации с флористом и предварительный заказ свадебного букета</li>
+                                                    <li>Консультации по выбору ресторана для свадебного банкета/ужина и бронирование ресторана/столика</li>
+                                                    <li>Консультации с кондитером, заказ свадебного торта</li>
+                                                    <li>Свадебная прическа для невесты в номере отеля</li>
+                                                    <li>Свадебный макияж для невесты в номере отеля</li>
+                                                    <li>Свадебный букет и бутоньерка, включая доставку в отель</li>
+                                                    <li>Церемония бракосочетания</li>
+                                                    <li>Сопровождение свадебной церемонии сотрудником компании</li>
+                                                    <li>Перевод свадебной церемонии присяжным переводчиком</li>
+                                                    <li>Музыкальное сопровождение - живая, органная музыка</li>
+                                                    <li>Шампанское во время церемонии - 6 бокалов</li>
+                                                    <li>Фотосъемка свадебной церемонии, прогулки в экстерьерах замка и прогулки по Праге - 4 часа, базовый фотограф / от 300 фото</li>
+                                                    <li>Предоставление свадебного автомобиля Mercedes E-class на 4 часа</li>
+                                                    <li>SIM-карта чешского оператора сотовой связи, активный баланс - 200 крон</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Exclusive</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$1800</h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Свадебный букет и бутоньерка</li>
+                                    <li>Видеосъёмка свадебной церемонии</li>
+                                    <li>Предоставление свадебного лимузина</li>
+                                    <li>Пешеходная экскурсия по Праге, для двоих</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal3">Узнать больше >></button>
+                                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel3">Тариф Exclusive</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul type="square">
+                                                    <li>Подготовка документов для бракосочетания и перевод их на чешский язык.</li>
+                                                    <li>Оплата государственных пошлин</li>
+                                                    <li>Сопровождение в полицию и Загс для предварительного оформления документов</li>
+                                                    <li>Подготовка программы и тайминга свадебного дня</li>
+                                                    <li>Пересылка свидетельства о браке экспресс почтой DHL</li>
+                                                    <li>Консультации по выбору фотографов, видеографов, стилистов и визажистов</li>
+                                                    <li>Консультации с флористом и предварительный заказ свадебного букета</li>
+                                                    <li>Консультации по выбору ресторана для свадебного банкета/ужина и бронирование ресторана/столика</li>
+                                                    <li>Консультации с кондитером, заказ свадебного торта</li>
+                                                    <li>Свадебная прическа для невесты в номере отеля</li>
+                                                    <li>Свадебный макияж для невесты в номере отеля</li>
+                                                    <li>Свадебный букет и бутоньерка, включая доставку в отель</li>
+                                                    <li>Церемония бракосочетания</li>
+                                                    <li>Сопровождение свадебной церемонии сотрудником компании</li>
+                                                    <li>Перевод свадебной церемонии присяжным переводчиком</li>
+                                                    <li>Музыкальное сопровождение - живая, органная музыка</li>
+                                                    <li>Шампанское во время церемонии - 6 бокалов</li>
+                                                    <li>Фотосъемка свадебной церемонии, прогулки в экстерьерах замка и прогулки по Праге - 4 часа, базовый фотограф / от 300 фото</li>
+                                                    <li>Видеосъёмка свадебной церемонии, прогулки в экстерьерах замка и прогулки по Праге - 4 часа, базовый видеограф / видеоклип до 4 мин.</li>
+                                                    <li>Трансферы аэропоpт-отель-аэропорт на базовом автомобиле</li>
+                                                    <li>Предоставление свадебного лимузина LINCOLN TC 120 (8 мест) на 5 часов</li>
+                                                    <li>SIM-карта чешского оператора сотовой связи, активный баланс - 200 крон</li>
+                                                    <li>Пешеходная экскурсия по Праге, для двоих</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <br>
+    <section id="testimonial">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in-up">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.glitch.global/413330c5-163f-424c-8b4f-a43251d52cce/victoria.jpg?v=1657309925482" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Виктория и Евгений</h1>
+                            <p>Большое спасибо агенству за сказку, которую они нам подарили!Все было организованно на высшем уровне. Мы долго выбирали в какой стране сыграть свадьбу и ни разу не пожалели,что выбрали сказочную Чехию. Все до мелочей,любое наше пожелание или просьба, все было сделано как мы этого хотели. Я безумно рада,что вы организовали нашу свадьбу настолько круто и незабываемо! Ведь воспоминания самого главного в жизни дня-это то,о чем будешь помнить и радоваться всю оставшуюся жизнь.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.glitch.global/413330c5-163f-424c-8b4f-a43251d52cce/elena.jpg?v=1657309899331" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Ирина и Дмитрий</h1>
+                            <p>Благодарности не заканчиваются…!!!!))) Наша свадьба состоялась в Праге в замке! Мечта превратилась в реальность!!! И эта реальность превзошла все ожидания! Получилась настоящая сказка! Хочется от Всего сердца поблагодарить Вас за отличную слаженную работу и полученное удовольствие молодоженов, т.е. нас от такой замечательной организации нашего главнейшего праздника!!!! Вы высокие профессионалы своего дела и видно сразу, что вы очень любите то, чем занимаетесь. Спасибо вам огромное за вашу отзывчивость, желание помочь, дать нужные рекомендации сделать этот день незабываемым!!! Вы очень располагаете к себе, что почувствовалось уже через тысячи километров путем сообщений и мы с мужем поняли и не ошиблись, что вам и вашему агентству можно полностью довериться!!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.glitch.global/413330c5-163f-424c-8b4f-a43251d52cce/ira.jpg?v=1657309913979" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 clas>Елена и Алексей</h1>
+                            <p>Мы выражаем вам огромную благодарность за полную и безупречную организацию нашего праздника! Ребята, это было настолько сказочно, что воспоминания с каждым днем все ярче и ярче!!! Спасибо вам огромное, вы и ваша команда такие классные, мы очень рады, что познакомились с вами))) От всей души желаем вам успехов и процветания!!! Спасибо так же флористам за букет и оформление зала!!! Спасибо всей команде, вы не просто профессионалы в своем деле, вы еще и классные ребята!!!)))) Будущие молодожены, все кто планирует свадьбу в Праге, без всяких сомнений, доверьтесь свадебному агентству Свадьба в Чехии и они сделают ваш день сказочным, а самое главное индивидуальным!!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <br>
+    <section id="about">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top" data-aos="zoom-in-up">
+            <div class="row">
+                <div class="col-12 col-md text-center">
+                    <a class="broo" href="#home">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hearts" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.931.481c1.627-1.671 5.692 1.254 0 5.015-5.692-3.76-1.626-6.686 0-5.015Zm6.84 1.794c1.084-1.114 3.795.836 0 3.343-3.795-2.507-1.084-4.457 0-3.343ZM7.84 7.642c2.71-2.786 9.486 2.09 0 8.358-9.487-6.268-2.71-11.144 0-8.358Z"/>
+                        </svg>
+                    </a>
+                    <small class="d-block mt-3 mb-3 text-muted">© 2014–2022</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>О нас</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="tel:+420 776 556 607"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                        </svg> Позвоните нам</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="mailto:info@luxesvadba.ru"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-heart-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555l-4.2 2.568a2.785 2.785 0 0 0-.051-.105c-.666-1.3-2.363-1.917-3.699-1.25-1.336-.667-3.033-.05-3.699 1.25l-.05.105L.05 3.555ZM11.584 8.91a4.694 4.694 0 0 1-.073.139L16 11.8V4.697l-4.003 2.447c.027.562-.107 1.163-.413 1.767Zm-4.135 3.05c-1.048-.693-1.84-1.39-2.398-2.082L.19 12.856A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144L10.95 9.878c-.559.692-1.35 1.389-2.398 2.081L8 12.324l-.551-.365ZM4.416 8.91c-.306-.603-.44-1.204-.413-1.766L0 4.697v7.104l4.49-2.752a4.742 4.742 0 0 1-.074-.138Z"/>
+                        <path d="M8 5.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                        </svg> Напишите нам</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.google.com/maps/place/V%C3%A1clavsk%C3%A9+n%C3%A1m.+831%2F21,+Nov%C3%A9+M%C4%9Bsto,+110+00+Praha-Praha+1,+%D0%A7%D0%B5%D1%85%D0%B8%D1%8F/@50.0828999,14.4261572,15.53z/data=!4m2!3m1!1s0x470b94ed25d2e067:0x65a76b38008dd792?hl=ru" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg> Наш адрес</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.facebook.com/luxesvadba" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+<p class="text-center">
+    Это учебный проект. Вся информация и фото взяты с <a class="broo" href="http://www.luxesvadba.ru/"> сайта</a>
+</p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
