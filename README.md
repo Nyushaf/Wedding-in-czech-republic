@@ -109,16 +109,16 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Change parametrs CSS
+Change parametrs [CSS](https://github.com/Nyushaf/Wedding-in-czech-republic/blob/7338a315b48d5dbd1f1001c2eefb75e824219b33/style.css#L1-L48)
    <img src="image/css.jpg" alt="screen">
 <br />
 <br />
-And change parametrs AOS animation in HTML file (more information about it on [site](https://active-vision.ru/blog/animatsiya-pri-prokrutke/) )
+And change parametrs AOS animation in [HTML file](https://github.com/Nyushaf/Wedding-in-czech-republic/blob/7338a315b48d5dbd1f1001c2eefb75e824219b33/index.html#L86) (more information about it on [site](https://active-vision.ru/blog/animatsiya-pri-prokrutke/) )
    ```sh
    data-aos="fade-up"
    data-aos="zoom-in-up"
    ```
-and GSAP animation in JS file
+and GSAP animation in [JS file](https://github.com/Nyushaf/Wedding-in-czech-republic/blob/7338a315b48d5dbd1f1001c2eefb75e824219b33/script.js#L4)
 <img src="image/gsap.jpg" alt="screen">
    <br />
    
