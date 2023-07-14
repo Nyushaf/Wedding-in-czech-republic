@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="image/welcome.jpg" alt="screen">
+<img src="image/wedding.jpg" alt="screen">
 
 This is the website of a wedding agency. It contains 
 * information about agency,
@@ -61,7 +61,7 @@ This is the website of a wedding agency. It contains
 * customer reviews,
 * contact information.
 
-<img width="500px" src="image/project.jpg" alt="screen"> <img width="500px" src="image/contacts.jpg" alt="screen">
+<img width="500px" src="image/price.jpg" alt="screen"> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
